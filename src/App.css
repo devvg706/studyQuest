@@ -1,0 +1,21 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+    overflow-x:hidden;
+}
+.homepage_bg {
+    background: url("../src/assests/Images/ChatGPT\ Image\ Jul\ 8\,\ 2025\,\ 06_02_25\ PM.png")
+}
+/* Hide browser default eye icon in password fields for WebKit (Chrome, Edge, Safari) */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-inner-spin-button,
+input[type="password"]::-webkit-clear-button,
+input[type="password"]::-webkit-textfield-decoration-container,
+input[type="password"]::-webkit-password-toggle-button {
+  display: none !important;
+  -webkit-appearance: none;
+}

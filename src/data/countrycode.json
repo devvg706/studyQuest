@@ -1,0 +1,14 @@
+[
+  { "country": "India", "code": "+91" },
+  { "country": "United States", "code": "+1" },
+  { "country": "Germany", "code": "+49" },
+  { "country": "Brazil", "code": "+55" },
+  { "country": "Australia", "code": "+61" },
+  { "country": "South Korea", "code": "+82" },
+  { "country": "Canada", "code": "+1" },
+  { "country": "Japan", "code": "+81" },
+  { "country": "France", "code": "+33" },
+  { "country": "Mexico", "code": "+52" },
+  { "country": "Italy", "code": "+39" },
+  { "country": "South Africa", "code": "+27" }
+]
