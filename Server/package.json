@@ -1,11 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "Server/index.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon Server/index.js",
-    "start": "node Server/index.js",
-    "build": "echo 'No build step needed'"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
