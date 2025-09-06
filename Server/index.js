@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 app.use(cors());
 const cookieParser = require("cookie-parser")
-const cors = require("cors");
 app.use(express.json());
 app.use(cookieParser());
 require("dotenv").config();
@@ -22,7 +21,7 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://studyquest-5.onrender.com",
     credentials:true, // Allow cookies to be sent with requests
 }));
 app.use(fileUpload({
