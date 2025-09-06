@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const cors = require("cors");
-app.use(cors());
 const cookieParser = require("cookie-parser")
 app.use(express.json());
 app.use(cookieParser());
@@ -21,9 +20,10 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 app.use(cors({
-    origin:"https://study-quest-sigma.vercel.app/",
-    credentials:true, // Allow cookies to be sent with requests
+  origin: true,        // reflect request origin
+  credentials: true,   // allow cookies/auth headers
 }));
+
 app.use(fileUpload({
     useTempFiles: true,
     tempFileDir: '/tmp/',
