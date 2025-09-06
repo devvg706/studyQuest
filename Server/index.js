@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 app.use(cors({
-    origin:"https://studyquest-5.onrender.com",
+    origin:"https://study-quest-sigma.vercel.app/",
     credentials:true, // Allow cookies to be sent with requests
 }));
 app.use(fileUpload({
